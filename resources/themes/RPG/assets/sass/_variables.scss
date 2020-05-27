@@ -1,0 +1,212 @@
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #ebebeb;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #888;
+$gray-700: #444;
+$gray-800: #303030;
+$gray-900: #222;
+$black:    #000;
+
+$blue:    #375a7f;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #E74C3C;
+$orange:  #fd7e14;
+$yellow:  #F39C12;
+$green:   #00bc8c;
+$teal:    #20c997;
+$cyan:    #3498DB;
+
+$primary:       $blue;
+$secondary:     $gray-700;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-500;
+$dark:          $gray-800;
+
+$yiq-contrasted-threshold:  175;
+
+$grid-gutter-width:           30px !default;
+
+// Body
+
+$body-bg:                   $black;
+$body-color:                $white;
+
+// Links
+
+$link-color:                $white;
+
+// Fonts
+$h1-font-size:                3rem;
+$h2-font-size:                2.5rem;
+$h3-font-size:                2rem;
+
+$text-muted:                  $gray-600;
+
+// Tables
+
+$table-accent-bg:             $gray-800;
+
+$table-border-color:          $gray-700;
+
+// Forms
+
+$input-border-color:                    $body-bg;
+
+$input-group-addon-color:               $gray-500;
+$input-group-addon-bg:                  $gray-700;
+
+$custom-file-color:                 $gray-500;
+$custom-file-border-color:          $body-bg;
+
+// Dropdowns
+
+$dropdown-bg:                       $gray-900;
+$dropdown-border-color:             $gray-700;
+$dropdown-divider-bg:               $gray-700;
+
+$dropdown-link-color:               $white;
+$dropdown-link-hover-color:         $white;
+$dropdown-link-hover-bg:            $primary;
+
+// Navs
+
+$nav-link-padding-x:                2rem;
+$nav-link-disabled-color:           $gray-500;
+
+$nav-tabs-border-color:             $gray-700;
+$nav-tabs-link-hover-border-color:  $nav-tabs-border-color $nav-tabs-border-color transparent;
+$nav-tabs-link-active-color:        $white;
+$nav-tabs-link-active-border-color: $nav-tabs-border-color $nav-tabs-border-color transparent;
+
+// Navbar
+
+$navbar-padding-y:                  1rem;
+
+$navbar-dark-color:                rgba($white,.6);
+$navbar-dark-hover-color:          $white;
+
+$navbar-light-color:                rgba($gray-900, .7);
+$navbar-light-hover-color:          $gray-900;
+$navbar-light-active-color:         $gray-900;
+$navbar-light-toggler-border-color: rgba($gray-900, .1);
+
+// Pagination
+
+$pagination-color:                  $white;
+$pagination-bg:                     $primary;
+$pagination-border-width:           0;
+$pagination-border-color:           transparent;
+
+$pagination-hover-color:            $white;
+$pagination-hover-bg:               lighten($primary, 10%);
+$pagination-hover-border-color:     transparent;
+
+$pagination-active-bg:              $pagination-hover-bg;
+$pagination-active-border-color:    transparent;
+
+$pagination-disabled-color:         $white;
+$pagination-disabled-bg:            darken($primary, 15%);
+$pagination-disabled-border-color:  transparent;
+
+// Jumbotron
+
+$jumbotron-bg:                      $gray-800;
+
+// Cards
+
+$card-cap-bg:                       $gray-700;
+$card-bg:                           $gray-800;
+
+// Popovers
+
+$popover-bg:                        $gray-800;
+
+$popover-header-bg:                 $gray-700;
+
+// Toasts
+
+$toast-background-color:            $gray-700;
+
+$toast-header-background-color:     $gray-800;
+
+// Modals
+
+$modal-content-bg:                  $gray-800;
+$modal-content-border-color:        $gray-700;
+
+$modal-header-border-color:         $gray-700;
+
+// Progress bars
+
+$progress-height:                   0.625rem;
+$progress-font-size:                0.625rem;
+$progress-bg:                       $gray-700;
+
+// List group
+
+$list-group-bg:                     $gray-800;
+$list-group-border-color:           $gray-700;
+
+$list-group-hover-bg:               $gray-700;
+
+// Breadcrumbs
+
+$breadcrumb-bg:                     $gray-700;
+
+// Close
+
+$close-color:                       $white;
+$close-text-shadow:                 none;
+
+// Code
+
+$pre-color:                         inherit;
+
+//Cards
+
+$card-spacer-y:                     .75rem;
+$card-spacer-x:                     .75rem;
+$card-border-width:                 1px;
+$card-border-radius:                .25rem;
+$card-border-color:                 rgba($black, .125);
+$card-inner-border-radius:          subtract($card-border-radius, $card-border-width);
+$card-cap-bg:                       rgba($gray-900, .5);
+$card-cap-color:                    null;
+$card-height:                       null;
+$card-color:                        $white;
+$card-bg:                           rgba($gray-900, .5);
+
+$card-img-overlay-padding:          1.25rem;
+
+$card-group-margin:                 $grid-gutter-width / 2;
+$card-deck-margin:                  $grid-gutter-width / 2;
+
+$card-columns-count:                3;
+$card-columns-gap:                  1.25rem;
+$card-columns-margin:               $card-spacer-y;

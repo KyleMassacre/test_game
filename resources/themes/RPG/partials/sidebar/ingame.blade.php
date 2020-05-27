@@ -1,0 +1,3 @@
+{!! $gameSidebar !!}
+
+
